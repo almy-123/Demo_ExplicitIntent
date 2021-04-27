@@ -60,11 +60,11 @@ public class MainActivity extends AppCompatActivity {
                 String statement = "";
 
                 if (requestCode == requestCodeForSupermanStats){
-                    statement = "You " + like + "Superman";
+                    statement = "You " + like + " Superman";
                 }
 
                 if (requestCode == requestCodeForBatmanStats){
-                    statement = "You " + like + "Batman";
+                    statement = "You " + like + " Batman";
                 }
 
                 Toast.makeText(MainActivity.this, statement, Toast.LENGTH_LONG).show();

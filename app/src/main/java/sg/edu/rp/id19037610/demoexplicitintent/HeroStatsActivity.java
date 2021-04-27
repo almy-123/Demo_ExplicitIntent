@@ -45,7 +45,7 @@ public class HeroStatsActivity extends AppCompatActivity {
             }
         });
 
-        btnLike.setOnClickListener(new View.OnClickListener() {
+        btnDislike.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent();
